@@ -1,13 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+
   text-transform: uppercase;
+
   color: #333333;
+  background: #f2f2f2;
+
   font-family: 'PT Sans', arial;
   font-size: 14px;
   font-weight: normal;
   line-height: 26px;
-
 }
 ul{
   margin: 0;
@@ -15,6 +18,7 @@ ul{
 }
 h1 {
   color: #000000;
+
   font-family: 'PT Sans Bold', arial;
   font-size: 21px;
   font-weight: bold;
@@ -22,6 +26,7 @@ h1 {
 }
 h3 {
   color: #000000;
+
   font-family: 'PT Sans Bold', arial;
   font-size: 30px;
   font-weight: bold;
@@ -31,6 +36,7 @@ h3 {
 .container {
   width: 1200px;
   margin: 0 auto;
+
   background-color: #ffffff;
 }
 
@@ -39,20 +45,26 @@ h3 {
 }
 .main-header {
   position: relative;
+
   display: flex;
+
   height: 56px;
   margin-bottom: 0;
+
   background-color: #ffffff;
   }
 .main-navigation ul{
     flex-direction: row;
+
     width: 1200px;
     height: 56px;
 }
 .main-header li {
   display: block;
+
   margin: 0;
   padding-top: 15px;
+
   list-style-type: none;
 }
 .main-header li:first-child {
@@ -63,21 +75,26 @@ h3 {
 .main-header li:nth-child(2) {
   width: 20%;
   margin-right: 240px;
+
     text-align: center;
   }
   .main-header li:nth-child(3) {
   width: 20%;
+
     text-align: center;
 }
 .main-header li:last-child {
     box-sizing: border-box;
     width: 20%;
   padding-right: 72px;
+
     text-align: right;
 }
 .main-header a {
   text-decoration: none;
+
   color: #000000;
+
   font-family: 'PT Sans Bold', arial;
   font-size: 14px;
   font-weight: bold;
@@ -87,6 +104,7 @@ h3 {
 .main-navigation {
   width: 1200px;
   min-height: 56px;
+
   background-color: #ffffff;
 }
 
@@ -94,34 +112,43 @@ h3 {
   position: absolute;
   top:0 ;
   left: 50%;
+
   margin-left: -69px;
 }
 .welcome-block {
     display: block;
+
   width: 1200px;
-  height: 508px;
-  background: url('../img/index-logo.jpg') no-repeat top center;
+padding-top: 60px;
+
+  background: url('../img/background-photo.jpg') no-repeat top center;
 }
 
+.welcome-block img:nth-child(1) {
+    display: block;
+
+  width: 458px;
+    margin: 0 auto;
 }
 .welcome-block img:nth-child(2) {
     display: block;
-  width: 458px;
-  margin: 0 auto;
 }
+
+
 .description {
   display: block;
+
   padding-top: 60px;
-  text-align: center;
   padding-bottom: 59px;
+
+  text-align: center;
 }
 .description h1{
   margin:0;
-  padding: 0 30%;
 }
 .description p {
-  padding-top: 40px;
   margin:0;
+  padding-top: 40px;
 }
 .features {
   text-align: center;
@@ -129,12 +156,14 @@ h3 {
 .features-item {
   width: 400px;
   padding: 45px 0;
+
   color: #ffffff;
   background-color: #81b3d2;
 }
-.text {
-  margin-top: -10px;
-}
+
+ .features-grey .features-item {
+     background-color: grey;
+ }
 
 .image {
   color: #ffffff;
@@ -145,24 +174,27 @@ h3 {
   width: 800px;
 }
 .services {
+  padding: 50px 0;
+
   text-align: center;
 }
 
 .services-item {
   display: flex;
   flex-direction: column;
+
   width: 400px;
-  height: 331px;
 }
 
 
 
 .services-item img {
-  padding-top: 61px;
   margin-bottom: 15px;
+
   justify-content: center;
   align-self: center;
 }
+
 
 
 
@@ -173,10 +205,82 @@ h3 {
 
 
 .services-item p {
-  margin-bottom: 56px;
   padding: 0 10%;
+
   justify-content: center;
   align-self: center;
 }
 
 
+.interest-block{
+  display: block;
+
+  text-align: center;
+}
+
+footer{
+  width: 1200px;
+  padding: 40px 0;
+
+    text-align: center;
+}
+
+.tag-item,
+.social,
+.developer-item{
+  width: 400px;
+}
+
+.selection-form{
+	display: flex;
+	width: 100%;
+	padding: 0 72px ;
+	
+	}
+.infrastructure{
+	width: 25%;
+	border: none;
+
+}	
+.house-type{
+	width: 25%;
+	border: none;
+}
+.price-for-day{
+	width: 50%;
+	border: none;
+}
+.sorting-item{
+	display: flex;
+	width: 1200px;
+}
+.founded{
+	width: 165px;
+	padding-left: 72px;
+
+}
+.sort{
+	width: 781px;
+}
+.arrows{
+	width: 110px;
+}
+.results-block{
+	display: flex;
+	flex-direction: column;
+}
+.result-item {
+	display: flex;
+	width: 1200px;
+}
+.result-image{
+	width: 165px;
+	padding-left: 72px;
+}
+.details-item{
+	width: 781px;
+}
+.rating-item{
+	width: 110px;
+	padding-right: 72px;
+}
