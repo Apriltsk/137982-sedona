@@ -230,3 +230,21 @@ footer{
 .developer-item{
   width: 400px;
 }
+
+.selection-block{
+	display: flex;
+	width: 1056px;
+	}
+.infrastructure{
+	width: 241px;
+	border: none;
+
+}	
+.house-type{
+	width: 288px;
+	border: none;
+}
+.price-for-day{
+	width: 328px;
+	border: none;
+}
